@@ -1,0 +1,188 @@
+/* General Resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding-top: 20px;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #3b86b5;
+}
+
+/* Blog Title Section */
+#home {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+#home h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#home p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+/* Section Styling */
+section {
+    padding: 40px 20px;
+    margin: 40px auto;
+    max-width: 1000px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+section h3 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+section ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+section ul li {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* General Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer strong {
+    color: #3498db;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #home h1 {
+        font-size: 36px;
+    }
+
+    #home p {
+        font-size: 16px;
+        max-width: 90%;
+    }
+
+    section {
+        padding: 30px 15px;
+    }
+
+    section h2 {
+        font-size: 30px;
+    }
+
+    section h3 {
+        font-size: 24px;
+    }
+
+    section p {
+        font-size: 16px;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+
+    #credits {
+        background-color: #f4f4f4;
+        text-align: center;
+        padding: 20px 0;
+        font-size: 18px;
+        color: #555;
+        margin-top: 40px;
+    }
+    
+    #credits .credits-container {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    
+    #credits a {
+        color: #3498db;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    #credits a:hover {
+        text-decoration: underline;
+    }
+    
+    #credits strong {
+        color: #333;
+    }
+    
+}
